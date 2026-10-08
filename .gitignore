@@ -13,3 +13,10 @@ wheels/
 runs/
 .env
 *.mp4
+
+# Agentic files
+AGENTS.md
+CONTEXT.md
+
+# Local recordings. Absolute paths, this machine only.
+fixtures.toml

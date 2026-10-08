@@ -1,0 +1,27 @@
+[project]
+name = "ss-jev"
+version = "0.1.0"
+description = "Melee (apple) training bot for Swords & Souls: Neverseen, with a replay harness and Jev in shadow mode"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2,<3",
+    "opencv-python>=4.10,<6",
+    "typesafe-sdk>=0.7,<1",
+]
+
+[project.optional-dependencies]
+live = [
+    "evdev>=1.7",
+]
+
+[project.scripts]
+ss-jev = "ss_jev.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]

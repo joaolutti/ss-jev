@@ -1,0 +1,1 @@
+"""Melee training bot package."""
