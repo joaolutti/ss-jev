@@ -1,0 +1,40 @@
+{
+  "version": 3,
+  "name": "play-750x400",
+  "window_size": [
+    750,
+    400
+  ],
+  "roi": [
+    0,
+    0,
+    750,
+    400
+  ],
+  "targets": {
+    "left": [
+      221,
+      284
+    ],
+    "right": [
+      556,
+      283
+    ],
+    "up": [
+      389,
+      116
+    ]
+  },
+  "character": [
+    390,
+    282
+  ],
+  "ring_radius": 35.0,
+  "input_delay": 0.04,
+  "min_area": 400,
+  "max_area": 3000,
+  "min_confidence": 0.7,
+  "character_rx": 70.0,
+  "character_ry": 90.0,
+  "title": "Swords & Souls"
+}

@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "name": "window-1680x1050",
+  "window_size": [1680, 1050],
+  "roi": [0, 0, 1680, 1050],
+  "targets": {
+    "left": [836, 912],
+    "right": [1008, 884],
+    "up": [840, 716]
+  },
+  "character": [922, 898],
+  "ring_radius": 35,
+  "input_delay": 0.04,
+  "title": "Swords & Souls"
+}

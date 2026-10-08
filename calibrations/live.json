@@ -1,0 +1,40 @@
+{
+  "version": 3,
+  "name": "live",
+  "window_size": [
+    800,
+    500
+  ],
+  "roi": [
+    215,
+    285,
+    356,
+    190
+  ],
+  "targets": {
+    "left": [
+      105,
+      135
+    ],
+    "right": [
+      264,
+      135
+    ],
+    "up": [
+      185,
+      55
+    ]
+  },
+  "character": [
+    184.5,
+    135.0
+  ],
+  "ring_radius": 16.61,
+  "input_delay": 0.04,
+  "min_area": 90,
+  "max_area": 676,
+  "min_confidence": 0.7,
+  "character_rx": 33.22,
+  "character_ry": 42.72,
+  "title": "Swords & Souls"
+}
